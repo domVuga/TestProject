@@ -91,7 +91,7 @@ namespace datadisplay
                     worksheet.Cells[i+1, j] = dataGrid.Rows[i-1].Cells[j-1].Value.ToString();
                 }
             }
-            workbook.SaveAs("C:\\Users\\Dominic Vuga\\Desktop\\myVSprojects\\datadisplay\\test.csv");
+            workbook.SaveAs("C:\\Users\\Dominic Vuga\\Documents\\GitHub\\myVSprojects\\datadisplay\\test.csv");
         }
     }
 }
